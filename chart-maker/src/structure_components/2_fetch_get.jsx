@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 const FetchGet = () => {
 
-       
+   
     const [records, setRecords] = useState([]);
 
     useEffect(() => {
@@ -25,6 +25,8 @@ const FetchGet = () => {
             </ul>
         </div>
     )
+    
+
 }
 
 export default FetchGet;
