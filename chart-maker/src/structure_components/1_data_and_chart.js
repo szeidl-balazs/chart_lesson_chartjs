@@ -1,6 +1,7 @@
 import React from 'react';
 import {BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Bar} from "recharts";
 
+
 /*Technology_1: the data and the chart is in the same file, if there are few data:*/
 /*module from: https://recharts.org/*/
 
@@ -15,7 +16,7 @@ const DataWithChart = () => {
       ]
 
     return (
-        <div className="component-wrap">
+        <div className="chart-wrap">
             <h1>Magyar Kukorica Klub</h1>
             <h2>Termés verseny 2023.</h2>
             <h2>FAO300 csoport</h2>

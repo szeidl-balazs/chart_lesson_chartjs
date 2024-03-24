@@ -18,9 +18,3 @@
   color: #61dafb;
 }
 
-.component-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
