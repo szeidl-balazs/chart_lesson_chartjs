@@ -1,5 +1,6 @@
 import useSWR from 'swr';
 import React from 'react';
+//instalállni kell az SWR-t: npm i swr
 
 const FetchWithSwr = () => {
 
