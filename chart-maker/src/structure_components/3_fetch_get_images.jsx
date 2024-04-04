@@ -8,7 +8,7 @@ const FetchImages = () => {
 
     useEffect(() => {
 
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch('https://jsonplaceholder.typicode.com/photos?_limit=14')
         .then(response => response.json())
         .then(json => setData(json))
         .then(err => console.log(err))

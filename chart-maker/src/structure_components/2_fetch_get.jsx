@@ -9,7 +9,7 @@ const FetchGet = () => {
 
     useEffect(() => {
 
-        fetch('https://jsonplaceholder.typicode.com/todos')
+        fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
         .then(response => response.json())
         .then(data => setRecords(data))
         .then(err => console.log(err))
